@@ -5,11 +5,11 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 
-export const signInWithEmail = ({ email, password }) => {
+export const signInWithEmail = (email, password) => {
   return signInWithEmailAndPassword(auth, email, password);
 };
 
-export const createUser = ({ email, password }) => {
+export const createUser = (email, password) => {
   return createUserWithEmailAndPassword(auth, email, password);
 };
 
