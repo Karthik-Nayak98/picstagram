@@ -1,7 +1,6 @@
 # Picstagram
 
-<p align='center'><img width="475" alt="image" src="https://user-images.githubusercontent.com/39642646/151711770-abce0c7c-d796-491c-9ae4-fd5adfa5cd6d.png
-"></p>
+<p align='center'><img width="475" alt="image" src="https://user-images.githubusercontent.com/39642646/151711770-abce0c7c-d796-491c-9ae4-fd5adfa5cd6d.png"></p>
 
 <p align='center'>
 <img alt="licence" src="https://img.shields.io/github/license/Karthik-Nayak98/picstagram?color=blue"/>
