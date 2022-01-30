@@ -2,11 +2,11 @@ import { Route, Routes } from "react-router-dom";
 
 import AuthContextProvider from "../context/authcontext";
 
-import HomePage from "./home/homepage";
+import HomePage from "../pages/homepage";
 import SignUp from "../pages/signup";
 import SignIn from "../pages/signin";
 import Navbar from "./navbar/navbar.component";
-import EditProfile from "../pages/editprofile";
+import Profile from "../pages/profile";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/editprofile' element={<EditProfile />} />
+          <Route path='/profile' element={<Profile />} />
           <Route path='/signin' element={<SignIn />} />
           <Route path='/signup' element={<SignUp />} />
         </Routes>
