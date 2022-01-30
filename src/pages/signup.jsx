@@ -35,6 +35,7 @@ function SignUp() {
       likes: [],
       createdAt: serverTimestamp(),
     };
+
     // uid is the document id.
     const document = doc(db, "users", uid);
     await setDoc(document, userState);
@@ -75,7 +76,6 @@ function SignUp() {
           const prog = Math.round(
             (snapshot.bytesTransferred / snapshot.totalBytes) * 100
           );
-          console.log(prog);
         },
         err => {
           console.log(err);
